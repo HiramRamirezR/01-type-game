@@ -5,12 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>No veas el teclado</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>No veas el teclado</h1>
-  <h2>Puntos: <span class="puntos-texto"></span></h2>
-  <h3 class="mensaje"></h3>
-  <div class="teclas-div">
+  <div class="container">
+    <h2>Tiempo: <span class="tiempo-texto"></span></h2>
+    <progress max="60" id="progressBar"></progress>
+    <h2>Nivel: <span class="nivel-texto"></span></h2>
+    <h2>Puntos: <span class="puntos-texto"></span></h2>
+    <h3 class="mensaje"></h3>
+    <div class="teclas-div">
+      <!-- Aquí van las teclas -->
+    </div>
   </div>
   <script src="app.js"></script>
 </body>
