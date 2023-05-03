@@ -3,7 +3,25 @@
 } */
 
 .teclas-div {
-  color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(153, 153, 153);
+  width: 80vw;
+  height: 40vh;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .ñ, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  font-size: 30px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .hide {
