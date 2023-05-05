@@ -6,16 +6,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(153, 153, 153);
+  background-color: rgb(255, 255, 255);
   width: 80vw;
   height: 40vh;
+  border-radius: 10px;
 }
 
 .a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .ñ, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
   width: 70px;
   height: 70px;
   background-color: rgb(59, 59, 59);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 30px;
   margin: 5px;
   display: flex;
